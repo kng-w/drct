@@ -1,5 +1,11 @@
 # DRCT: Saving Image Super-resolution away from Information Bottleneck 
 
+## kng-w での利用方法
+
+```
+ python inference.py 
+```
+
 ### ✨✨ [CVPR NTIRE Oral Presentation]
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/drct-saving-image-super-resolution-away-from/image-super-resolution-on-set5-4x-upscaling)](https://paperswithcode.com/sota/image-super-resolution-on-set5-4x-upscaling?p=drct-saving-image-super-resolution-away-from)
