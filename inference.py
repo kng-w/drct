@@ -30,8 +30,8 @@ def main():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # set up model (DRCT-L)
     model = DRCT(upscale=4, in_chans=3,  img_size= 64, window_size= 16, compress_ratio= 3,squeeze_factor= 30,
-                        conv_scale= 0.01, overlap_ratio= 0.5, img_range= 1., depths= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], # L だと 6層
-                        embed_dim= 180, num_heads= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], # L だと 6層
+                        conv_scale= 0.01, overlap_ratio= 0.5, img_range= 1., depths= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], # L だと 6層、XL だと 14層
+                        embed_dim= 180, num_heads= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], # L だと 6層、XL だと 14層
                         gc= 32,
                         mlp_ratio= 2, upsampler= 'pixelshuffle', resi_connection= '1conv')
     
