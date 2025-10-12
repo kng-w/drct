@@ -1,0 +1,13 @@
+# models
+models
+
+# data
+data
+results
+
+# pycache
+__pycache__
+
+drct.egg-info
+
+.eggs
