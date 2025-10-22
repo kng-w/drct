@@ -1,5 +1,6 @@
 # models
-models
+models/DRCT_X4.pth
+models/DRCT_XL.pth
 
 # data
 */data
