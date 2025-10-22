@@ -2,8 +2,9 @@
 models
 
 # data
-data
+*/data
 results
+output
 
 # pycache
 __pycache__
